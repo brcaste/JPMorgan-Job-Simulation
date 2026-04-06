@@ -26,3 +26,15 @@ A teammate has already created a basic project scaffold following the system arc
 - Create a TransactionRecord JPA entity and persist valid transactions while discarding invalid ones.
 - Update the sender and recipient balances when transactions are successfully processed.
 - Run TaskThreeTests, inspect the final balance of the waldorf user in your debugger, and submit the rounded-down value.
+
+## Task 4 
+- Run the provided Incentive API service locally and connect Midas Core to its /incentive endpoint.
+- Implement a method that posts validated Transaction objects to the Incentive API and receives an Incentive response.
+- Update your transaction-processing logic to store the incentive amount and correctly adjust user balances—adding incentives to recipients but not subtracting them from senders.
+- Run TaskFourTests, use your debugger to determine wilbur’s final balance, and submit the rounded-down result.
+
+## Task 5
+- Create a Spring REST controller inside Midas Core that exposes a GET /balance endpoint.
+- Accept a userId as a request parameter, look up the corresponding user, and return a JSON-serialized Balance object (defaulting to 0 if the user does not exist).
+- Configure your Spring application to run on port 33400 and ensure the new endpoint works alongside the rest of Midas Core.
+- Run TaskFiveTests with the Incentive API running, and submit the output snippet containing the BEGIN and END markers.
