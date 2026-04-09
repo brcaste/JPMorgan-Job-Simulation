@@ -1,4 +1,4 @@
-# JP Morgan Job Simulation
+# Transaction-Processing-System
 ## Background Information
 Your team has been tasked with building the Midas system, a high-profile initiative responsible for processing financial transactions at scale. Completing this project successfully would be a major achievement for your engineering career.
 
